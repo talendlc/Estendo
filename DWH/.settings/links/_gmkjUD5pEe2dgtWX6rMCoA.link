@@ -1,0 +1,29 @@
+{
+  "itemId" : "_gmkjUD5pEe2dgtWX6rMCoA",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_mbpq4D5qEe2dgtWX6rMCoA",
+    "parameterList" : [ {
+      "id" : "_mb3tUT5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Login"
+    }, {
+      "id" : "_mb3tUz5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Server"
+    }, {
+      "id" : "_mb3tVD5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Database"
+    }, {
+      "id" : "_mb3tVT5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Password"
+    }, {
+      "id" : "_mb3tVj5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Port"
+    }, {
+      "id" : "_mb3tVz5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_AdditionalParams"
+    }, {
+      "id" : "_2-868GDhEe2D7Jcn3b0Ljg",
+      "name" : "connection_MSSQLDWH_Schema"
+    } ]
+  } ]
+}

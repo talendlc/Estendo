@@ -1,0 +1,29 @@
+{
+  "itemId" : "_bDQTMD8CEe2ZrYh7VEISfw",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_t_Eh8GD5Ee2D7Jcn3b0Ljg",
+    "parameterList" : [ {
+      "id" : "_t_W10WD5Ee2D7Jcn3b0Ljg",
+      "name" : "connection_MSSQLEstendo_Database"
+    }, {
+      "id" : "_t_W10mD5Ee2D7Jcn3b0Ljg",
+      "name" : "connection_MSSQLEstendo_Login"
+    }, {
+      "id" : "_t_W102D5Ee2D7Jcn3b0Ljg",
+      "name" : "connection_MSSQLEstendo_Schema"
+    }, {
+      "id" : "_t_W11GD5Ee2D7Jcn3b0Ljg",
+      "name" : "connection_MSSQLEstendo_Port"
+    }, {
+      "id" : "_t_W11WD5Ee2D7Jcn3b0Ljg",
+      "name" : "connection_MSSQLEstendo_Password"
+    }, {
+      "id" : "_t_W11mD5Ee2D7Jcn3b0Ljg",
+      "name" : "connection_MSSQLEstendo_Server"
+    }, {
+      "id" : "_t_W112D5Ee2D7Jcn3b0Ljg",
+      "name" : "connection_MSSQLEstendo_AdditionalParams"
+    } ]
+  } ]
+}

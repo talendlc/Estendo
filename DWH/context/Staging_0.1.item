@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="__oo5oES-Ee2F5-qwPNNHXg">
+    <contextParameter comment="" name="table_name" prompt="table_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="__oo5oUS-Ee2F5-qwPNNHXg"/>
+    <contextParameter comment="" name="source_schema" prompt="source_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="__oo5okS-Ee2F5-qwPNNHXg"/>
+    <contextParameter comment="" name="column_list" prompt="column_list?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="__oo5o0S-Ee2F5-qwPNNHXg"/>
+    <contextParameter comment="" name="column_name" prompt="column_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="__opgsES-Ee2F5-qwPNNHXg"/>
+    <contextParameter comment="" name="query_select" prompt="query_select?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="__opgsUS-Ee2F5-qwPNNHXg"/>
+    <contextParameter comment="" name="source_name" prompt="source_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Estendo" xmi:id="_-dXsMEV1Ee2ngM_30drcVA"/>
+    <contextParameter comment="" name="time_col_name" prompt="time_col_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_B8zwoEhtEe2pDJUaqscnHA"/>
+    <contextParameter comment="" name="source_type" prompt="source_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_BwZbgElNEe2IHYfGKUwXag"/>
+    <contextParameter comment="" name="refresh_date" prompt="refresh_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_hACucEr6Ee27g7VoVY5UoQ"/>
+    <contextParameter comment="" name="time_col_period" prompt="time_col_period?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_0KrP8Er9Ee27g7VoVY5UoQ"/>
+    <contextParameter comment="" name="source_ana" prompt="source_ana?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES" xmi:id="_tGfaUGDcEe2D7Jcn3b0Ljg"/>
+    <contextParameter comment="" name="query_create" prompt="query_create?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_naJXIGHPEe2uBYiJUUhvGQ"/>
+    <contextParameter comment="" name="cod_nv" prompt="cod_nv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="NV" xmi:id="_x4PXoHIrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="des_notvalue" prompt="des_notvalue?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Not Value" xmi:id="_x4PXoXIrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="cod_nv_int" prompt="cod_nv_int?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0" xmi:id="_x4PXonIrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="des_notvalue1" prompt="des_notvalue1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Not Value" xmi:id="_x4PXo3IrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="cod_nv1" prompt="cod_nv1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="NV" xmi:id="_x4PXpHIrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="date_notvalue" prompt="date_notvalue?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value="2999-12-31 00:00:00" xmi:id="_896EgHIrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="date_notvalue1" prompt="date_notvalue1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_x0cnUHIsEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="query_filter" prompt="query_filter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_n_kQgILNEe28ZvUJdVkQOA"/>
+    <contextParameter comment="" name="bol_nv" prompt="bol_nv?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" xmi:id="_rLPMsJA-Ee2pcpENgFTJ2w"/>
+    <contextParameter comment="" name="dec_nv" prompt="dec_nv?" promptNeeded="false" repositoryContextId="built-in" type="id_BigDecimal" value="0" xmi:id="_2jxyQJA-Ee2pcpENgFTJ2w"/>
+    <contextParameter comment="" name="short_nv" prompt="short_nv?" promptNeeded="false" repositoryContextId="built-in" type="id_Short" value="0" xmi:id="_7E4ZEJG2Ee2OTrVlNnIrmA"/>
+    <contextParameter comment="" name="sources" prompt="sources?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES,SF" xmi:id="_UYYfEKJJEe2sqLzPI6Z31Q"/>
+    <contextParameter comment="" name="refresh_year" prompt="refresh_year?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A9RrkNH8Ee2uUugL_8Lr2g"/>
+    <contextParameter comment="" name="file_remote_directory" prompt="file_remote_directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Talend/" xmi:id="_q--3AO9BEe2MCcBUiqvBrA"/>
+    <contextParameter comment="" name="file_local_directory" prompt="file_local_directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Talend_Studio_8_Estendo/workspace/" xmi:id="_ChZYUPDKEe2CQcQPRFhUhA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRD" xmi:id="_8mh3kEiwEe2ApN8BB1b6hg">
+    <contextParameter comment="" name="table_name" prompt="table_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_8mh3kUiwEe2ApN8BB1b6hg"/>
+    <contextParameter comment="" name="source_schema" prompt="source_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_8mh3kkiwEe2ApN8BB1b6hg"/>
+    <contextParameter comment="" name="column_list" prompt="column_list?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_8mh3k0iwEe2ApN8BB1b6hg"/>
+    <contextParameter comment="" name="column_name" prompt="column_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_8mh3lEiwEe2ApN8BB1b6hg"/>
+    <contextParameter comment="" name="query_select" prompt="query_select?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_8mh3lUiwEe2ApN8BB1b6hg"/>
+    <contextParameter comment="" name="source_name" prompt="source_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Estendo" xmi:id="_8mh3lkiwEe2ApN8BB1b6hg"/>
+    <contextParameter comment="" name="time_col_name" prompt="time_col_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_8mh3l0iwEe2ApN8BB1b6hg"/>
+    <contextParameter comment="" name="source_type" prompt="source_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_BwZbgUlNEe2IHYfGKUwXag"/>
+    <contextParameter comment="" name="refresh_date" prompt="refresh_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_hACucUr6Ee27g7VoVY5UoQ"/>
+    <contextParameter comment="" name="time_col_period" prompt="time_col_period?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_0KrP8Ur9Ee27g7VoVY5UoQ"/>
+    <contextParameter comment="" name="source_ana" prompt="source_ana?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES" xmi:id="_tGfaUWDcEe2D7Jcn3b0Ljg"/>
+    <contextParameter comment="" name="query_create" prompt="query_create?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_naJXIWHPEe2uBYiJUUhvGQ"/>
+    <contextParameter comment="" name="cod_nv" prompt="cod_nv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="NV" xmi:id="_x4PXpXIrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="des_notvalue" prompt="des_notvalue?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Not Value" xmi:id="_x4PXpnIrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="cod_nv_int" prompt="cod_nv_int?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0" xmi:id="_x4PXp3IrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="des_notvalue1" prompt="des_notvalue1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Not Value" xmi:id="_x4PXqHIrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="cod_nv1" prompt="cod_nv1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="NV" xmi:id="_x4PXqXIrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="date_notvalue" prompt="date_notvalue?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value="2999-12-31 00:00:00" xmi:id="_896EgXIrEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="date_notvalue1" prompt="date_notvalue1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_x0cnUXIsEe2kKYT8MNPXkQ"/>
+    <contextParameter comment="" name="query_filter" prompt="query_filter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_n_kQgYLNEe28ZvUJdVkQOA"/>
+    <contextParameter comment="" name="bol_nv" prompt="bol_nv?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" xmi:id="_rLPMsZA-Ee2pcpENgFTJ2w"/>
+    <contextParameter comment="" name="dec_nv" prompt="dec_nv?" promptNeeded="false" repositoryContextId="built-in" type="id_BigDecimal" value="0" xmi:id="_2jxyQpA-Ee2pcpENgFTJ2w"/>
+    <contextParameter comment="" name="short_nv" prompt="short_nv?" promptNeeded="false" repositoryContextId="built-in" type="id_Short" value="0" xmi:id="_7E4ZEZG2Ee2OTrVlNnIrmA"/>
+    <contextParameter comment="" name="sources" prompt="sources?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES,SF" xmi:id="_UYZGIKJJEe2sqLzPI6Z31Q"/>
+    <contextParameter comment="" name="refresh_year" prompt="refresh_year?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A9RrkdH8Ee2uUugL_8Lr2g"/>
+    <contextParameter comment="" name="file_remote_directory" prompt="file_remote_directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Talend/" xmi:id="_q--3Ae9BEe2MCcBUiqvBrA"/>
+    <contextParameter comment="" name="file_local_directory" prompt="file_local_directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Talend_Studio_8_Estendo/workspace/" xmi:id="_ChZYUfDKEe2CQcQPRFhUhA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9776b6be-da52-46a2-ae8d-986afbe23f6b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lnbd/1IWwaJrpHs5fRMdrUX7gJNsCad6iiruEA+HOqcpD4M1P+n/hk1GgzfncjgAbC1aUWzAxh7b&#13;
+s/OzyIkG5Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c92186bb-cb98-4e94-a2ef-d0b9fb4a8baf"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LNi3MXdP01wlk2EnJZQdHkrvGqgs7GmUIdM1P3wXFkZFpYXF3KE3+J/MkjO4iyyo5xo5GlS0SqKB&#13;
+02xis8m5Jg==</DigestValue></Reference></SignedInfo><SignatureValue>D1hX2gZLQbsTTr+rpHClSGOV5dmI4ZnRdjgUacWOaexRAFq18nP9+/42inRwCEhTeLR/KqtGgMux&#13;
+m2i6dNf7gT34vmiQD9e0MuVhgPWTI7cxuNIbF4gL4rFXxbH4hbBCc1PFy3IRjvHxk3uZlX6ceYeb&#13;
+UMQs9BQUX531ePWaKfxp7HU7kQXfWq8++TJt6YGshVHFlxx7l5xooMlxVA438r1MSwlmP1QELNu5&#13;
+p9BYU1xylfPx2fIItDkdLrQwxaJ4SLc5E6lIyj3nTW7kazu4SRPvNCClWigXCIa/z28qSR1GqGKb&#13;
+vQKrIVok55ffsQuLxE46VowQ1IY4YTWpH5wpNA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c92186bb-cb98-4e94-a2ef-d0b9fb4a8baf" Target="#_9776b6be-da52-46a2-ae8d-986afbe23f6b"><Timestamp>2024-09-16 12:19:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

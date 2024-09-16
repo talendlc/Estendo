@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="DEV" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="PRD">
+    <contextParameter comment="" internalId="_oTddYNIgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_AdditionalParams" prompt="connection_MSSQLDWH_AdditionalParams?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value="instanceName=SISTEMI"/>
+    <contextParameter comment="" internalId="_oTddYdIgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Database" prompt="connection_MSSQLDWH_Database?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value="Talend_Prod"/>
+    <contextParameter comment="" internalId="_oTddYtIgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Login" prompt="connection_MSSQLDWH_Login?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value="horsa"/>
+    <contextParameter comment="" internalId="_oTddY9IgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Password" prompt="connection_MSSQLDWH_Password?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_Password" value="enc:system.encryption.key.v1:uND6wpetRnIOEpcfbE4R7pslwah85nkBVI+MleFyaAq5AX/c"/>
+    <contextParameter comment="" internalId="_oTddZNIgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Port" prompt="connection_MSSQLDWH_Port?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddZdIgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Schema" prompt="connection_MSSQLDWH_Schema?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_oTddZtIgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Server" prompt="connection_MSSQLDWH_Server?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value=" 192.168.110.2"/>
+    <contextParameter comment="" internalId="_oTddZ9IgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_AdditionalParams" prompt="connection_MSSQLDWHLOG_AdditionalParams?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value="instanceName=SISTEMI"/>
+    <contextParameter comment="" internalId="_oTddaNIgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Database" prompt="connection_MSSQLDWHLOG_Database?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value="Talend_Dev"/>
+    <contextParameter comment="" internalId="_oTddadIgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Login" prompt="connection_MSSQLDWHLOG_Login?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value="horsa"/>
+    <contextParameter comment="" internalId="_oTddatIgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Password" prompt="connection_MSSQLDWHLOG_Password?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_Password" value="enc:system.encryption.key.v1:/xCuRGe5dyvTUCnV2Wh2PgyWQakQ0pB336ACg7q34zF9MVzg"/>
+    <contextParameter comment="" internalId="_oTdda9IgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Port" prompt="connection_MSSQLDWHLOG_Port?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddbNIgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Schema" prompt="connection_MSSQLDWHLOG_Schema?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value="log"/>
+    <contextParameter comment="" internalId="_oTddbdIgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Server" prompt="connection_MSSQLDWHLOG_Server?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value=" 192.168.110.2"/>
+    <contextParameter comment="" internalId="_oTddbtIgEe2uUugL_8Lr2g" name="bol_nv" prompt="bol_nv?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_Boolean" value="false"/>
+    <contextParameter comment="" internalId="_oTddb9IgEe2uUugL_8Lr2g" name="cod_nv" prompt="cod_nv?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="NV"/>
+    <contextParameter comment="" internalId="_oTddcNIgEe2uUugL_8Lr2g" name="cod_nv_int" prompt="cod_nv_int?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_oTddcdIgEe2uUugL_8Lr2g" name="cod_nv1" prompt="cod_nv1?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="NV"/>
+    <contextParameter comment="" internalId="_oTddctIgEe2uUugL_8Lr2g" name="column_list" prompt="column_list?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddc9IgEe2uUugL_8Lr2g" name="column_name" prompt="column_name?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTdddNIgEe2uUugL_8Lr2g" name="date_notvalue" prompt="date_notvalue?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_Date" value="2999-12-31 00:00:00"/>
+    <contextParameter comment="" internalId="_oTddddIgEe2uUugL_8Lr2g" name="date_notvalue1" prompt="date_notvalue1?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTdddtIgEe2uUugL_8Lr2g" name="dec_nv" prompt="dec_nv?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_BigDecimal" value="0"/>
+    <contextParameter comment="" internalId="_oTddd9IgEe2uUugL_8Lr2g" name="des_notvalue" prompt="des_notvalue?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="Not Value"/>
+    <contextParameter comment="" internalId="_oTddeNIgEe2uUugL_8Lr2g" name="des_notvalue1" prompt="des_notvalue1?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="Not Value"/>
+    <contextParameter comment="" internalId="_oTddedIgEe2uUugL_8Lr2g" name="query_create" prompt="query_create?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddetIgEe2uUugL_8Lr2g" name="query_filter" prompt="query_filter?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTdde9IgEe2uUugL_8Lr2g" name="query_select" prompt="query_select?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddfNIgEe2uUugL_8Lr2g" name="refresh_date" prompt="refresh_date?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddfdIgEe2uUugL_8Lr2g" name="refresh_year" prompt="refresh_year?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddftIgEe2uUugL_8Lr2g" name="short_nv" prompt="short_nv?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_Short" value="0"/>
+    <contextParameter comment="" internalId="_oTddf9IgEe2uUugL_8Lr2g" name="source_ana" prompt="source_ana?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="ES"/>
+    <contextParameter comment="" internalId="_oTddgNIgEe2uUugL_8Lr2g" name="source_name" prompt="source_name?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="Estendo"/>
+    <contextParameter comment="" internalId="_oTddgdIgEe2uUugL_8Lr2g" name="source_schema" prompt="source_schema?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddgtIgEe2uUugL_8Lr2g" name="source_type" prompt="source_type?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddg9IgEe2uUugL_8Lr2g" name="sources" prompt="sources?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="ES,SF"/>
+    <contextParameter comment="" internalId="_oTddhNIgEe2uUugL_8Lr2g" name="table_name" prompt="table_name?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddhdIgEe2uUugL_8Lr2g" name="time_col_name" prompt="time_col_name?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddhtIgEe2uUugL_8Lr2g" name="time_col_period" prompt="time_col_period?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_Integer" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" internalId="_oTddh9IgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_AdditionalParams" prompt="connection_MSSQLDWH_AdditionalParams?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value="instanceName=SISTEMI"/>
+    <contextParameter comment="" internalId="_oTddiNIgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Database" prompt="connection_MSSQLDWH_Database?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value="Talend_Dev"/>
+    <contextParameter comment="" internalId="_oTddidIgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Login" prompt="connection_MSSQLDWH_Login?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value="horsa"/>
+    <contextParameter comment="" internalId="_oTdditIgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Password" prompt="connection_MSSQLDWH_Password?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_Password" value="enc:system.encryption.key.v1:c4FOZiDIHjqUzqxJJzenMCJldhXNUpGUAhV0xQtR2BC7NBFX"/>
+    <contextParameter comment="" internalId="_oTddi9IgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Port" prompt="connection_MSSQLDWH_Port?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddjNIgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Schema" prompt="connection_MSSQLDWH_Schema?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" internalId="_oTddjdIgEe2uUugL_8Lr2g" name="connection_MSSQLDWH_Server" prompt="connection_MSSQLDWH_Server?" promptNeeded="false" repositoryContextId="_mbpq4D5qEe2dgtWX6rMCoA" type="id_String" value=" 192.168.110.2"/>
+    <contextParameter comment="" internalId="_oTddjtIgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_AdditionalParams" prompt="connection_MSSQLDWHLOG_AdditionalParams?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value="instanceName=SISTEMI"/>
+    <contextParameter comment="" internalId="_oTddj9IgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Database" prompt="connection_MSSQLDWHLOG_Database?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value="Talend_Dev"/>
+    <contextParameter comment="" internalId="_oTddkNIgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Login" prompt="connection_MSSQLDWHLOG_Login?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value="horsa"/>
+    <contextParameter comment="" internalId="_oTddkdIgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Password" prompt="connection_MSSQLDWHLOG_Password?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_Password" value="enc:system.encryption.key.v1:YhAzeqRwFMhKvoD74Wu+KYgMrbWYl7Fl+K/RvUD3Vne9dlkF"/>
+    <contextParameter comment="" internalId="_oTddktIgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Port" prompt="connection_MSSQLDWHLOG_Port?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddk9IgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Schema" prompt="connection_MSSQLDWHLOG_Schema?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value="log"/>
+    <contextParameter comment="" internalId="_oTddlNIgEe2uUugL_8Lr2g" name="connection_MSSQLDWHLOG_Server" prompt="connection_MSSQLDWHLOG_Server?" promptNeeded="false" repositoryContextId="_dpkSkG8wEe2-dePjanCKcA" type="id_String" value=" 192.168.110.2"/>
+    <contextParameter comment="" internalId="_oTddldIgEe2uUugL_8Lr2g" name="bol_nv" prompt="bol_nv?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_Boolean" value="false"/>
+    <contextParameter comment="" internalId="_oTddltIgEe2uUugL_8Lr2g" name="cod_nv" prompt="cod_nv?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="NV"/>
+    <contextParameter comment="" internalId="_oTddl9IgEe2uUugL_8Lr2g" name="cod_nv_int" prompt="cod_nv_int?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_oTddmNIgEe2uUugL_8Lr2g" name="cod_nv1" prompt="cod_nv1?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="NV"/>
+    <contextParameter comment="" internalId="_oTddmdIgEe2uUugL_8Lr2g" name="column_list" prompt="column_list?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddmtIgEe2uUugL_8Lr2g" name="column_name" prompt="column_name?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddm9IgEe2uUugL_8Lr2g" name="date_notvalue" prompt="date_notvalue?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_Date" value="2999-12-31 00:00:00"/>
+    <contextParameter comment="" internalId="_oTddnNIgEe2uUugL_8Lr2g" name="date_notvalue1" prompt="date_notvalue1?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddndIgEe2uUugL_8Lr2g" name="dec_nv" prompt="dec_nv?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_BigDecimal" value="0"/>
+    <contextParameter comment="" internalId="_oTddntIgEe2uUugL_8Lr2g" name="des_notvalue" prompt="des_notvalue?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="Not Value"/>
+    <contextParameter comment="" internalId="_oTddn9IgEe2uUugL_8Lr2g" name="des_notvalue1" prompt="des_notvalue1?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="Not Value"/>
+    <contextParameter comment="" internalId="_oTddoNIgEe2uUugL_8Lr2g" name="query_create" prompt="query_create?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddodIgEe2uUugL_8Lr2g" name="query_filter" prompt="query_filter?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddotIgEe2uUugL_8Lr2g" name="query_select" prompt="query_select?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddo9IgEe2uUugL_8Lr2g" name="refresh_date" prompt="refresh_date?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddpNIgEe2uUugL_8Lr2g" name="refresh_year" prompt="refresh_year?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddpdIgEe2uUugL_8Lr2g" name="short_nv" prompt="short_nv?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_Short" value="0"/>
+    <contextParameter comment="" internalId="_oTddptIgEe2uUugL_8Lr2g" name="source_ana" prompt="source_ana?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="ES"/>
+    <contextParameter comment="" internalId="_oTddp9IgEe2uUugL_8Lr2g" name="source_name" prompt="source_name?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="Estendo"/>
+    <contextParameter comment="" internalId="_oTddqNIgEe2uUugL_8Lr2g" name="source_schema" prompt="source_schema?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddqdIgEe2uUugL_8Lr2g" name="source_type" prompt="source_type?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddqtIgEe2uUugL_8Lr2g" name="sources" prompt="sources?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value="ES,SF"/>
+    <contextParameter comment="" internalId="_oTddq9IgEe2uUugL_8Lr2g" name="table_name" prompt="table_name?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddrNIgEe2uUugL_8Lr2g" name="time_col_name" prompt="time_col_name?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_oTddrdIgEe2uUugL_8Lr2g" name="time_col_period" prompt="time_col_period?" promptNeeded="false" repositoryContextId="__oTicES-Ee2F5-qwPNNHXg" type="id_Integer" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:S9swHMcGeU/bzWaSFeq+6w3VULBcPhV++Eoypmlc"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend_Studio_8_Estendo/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" show="false" value="_S71kkG8wEe2-dePjanCKcA"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tMSSqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="URL" show="false" value=""/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_MSSQLDWHLOG_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_MSSQLDWHLOG_Port"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_MSSQLDWHLOG_Database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.connection_MSSQLDWHLOG_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_MSSQLDWHLOG_AdditionalParams"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_MSSQLDWHLOG_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_MSSQLDWHLOG_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:H+qcFHVS3GMkYxnd+dLhfb9tM/Z1exmgtuJywfWqFvkn70zZAz8cEBRNFK7YNjtrdtuxtnfJMT3aX/IK4KnUlgKx5w=="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;TALEND_STATS&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;TALEND_LOGS&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_ZE0KcE5nEeqz6cVCCffmHw" name="DataOperation"/>
+    <routinesParameter id="_ZFm0oE5nEeqz6cVCCffmHw" name="Mathematical"/>
+    <routinesParameter id="_ZHhgME5nEeqz6cVCCffmHw" name="Numeric"/>
+    <routinesParameter id="_ZH9lEE5nEeqz6cVCCffmHw" name="Relational"/>
+    <routinesParameter id="_ZAkjoE5nEeqz6cVCCffmHw" name="SQLike"/>
+    <routinesParameter id="_ZIVYgE5nEeqz6cVCCffmHw" name="StringHandling"/>
+    <routinesParameter id="_ZI3kAE5nEeqz6cVCCffmHw" name="TalendDataGenerator"/>
+    <routinesParameter id="_ZJU3AE5nEeqz6cVCCffmHw" name="TalendDate"/>
+    <routinesParameter id="_ZKrh4E5nEeqz6cVCCffmHw" name="TalendStringUtil"/>
+    <routinesParameter id="_ZJz_ME5nEeqz6cVCCffmHw" name="TalendString"/>
+  </parameters>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMSSqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1216" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__ &lt;br&gt; &lt;b&gt; __CONNECTION__&lt;/b&gt;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_MSSQLDWH_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_MSSQLDWH_Port"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;stg&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_MSSQLDWH_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_MSSQLDWH_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lDY3JNkj+2ftPkqJ5aDqJA6fQszxXFgyC3yibyrO5uyfBxRKNDbG/OsO3CDtyADc31jhecu8jFKFiTAHAvvl2g=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_MSSQLDWH_AdditionalParams"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="CHECK" name="SHARE_IDENTITY_SETTING" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;&lt;b&gt; __DBNAME__&lt;/b&gt;&lt;br&gt;&lt;b&gt; __SCHEMA_DB__&lt;/b&gt;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" show="false" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1433&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:1Pgc1Tfp93a79K3dMy4QfglpPQjKMA5XWBwPu7Rx"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;WRK_DIM_CLIENTE&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;truncate table wrk.WRK_DIM_CLIENTE&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;TRUNC &lt;b&gt;__TABLE__&lt;/b&gt;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_1"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" show="false" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1433&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Bu+svie2jMvTdTxDolS7bpj0H5/jXxVSzb+f7+KK"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;GRZ_anagrafica_certificato&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;&#9;&#9;cast(anacert_id as varchar(20)) as anacert_id,&#13;&#10;&#9;&#9;anacert_data1,&#13;&#10;&#9;&#9;anacert_nome,&#13;&#10;&#9;&#9;anacert_cognome,&#13;&#10;&#9;&#9;anacert_telefono,&#13;&#10;&#9;&#9;anacert_indirizzo,&#13;&#10;&#9;&#9;anacert_citta,&#13;&#10;&#9;&#9;anacert_provincia,&#13;&#10;&#9;&#9;anacert_email,&#13;&#10;&#9;&#9;anacert_cellulare,&#13;&#10;&#9;&#9;anacert_cap,&#13;&#10;&#9;&#9;anacert_utenins,&#13;&#10;&#9;&#9;anacert_utenvar,&#13;&#10;&#9;&#9;anacert_datains,&#13;&#10;&#9;&#9;anacert_datavar,&#13;&#10;&#9;&#9;anacert_note,&#13;&#10;&#9;&#9;certificato_DML,&#13;&#10;&#9;&#9;anacert_privacy1,&#13;&#10;&#9;&#9;anacert_privacy2,&#13;&#10;&#9;&#9;anacert_privacy3,&#13;&#10;&#9;&#9;anacert_sellout,&#13;&#10;&#9;&#9;anacert_certificati_pin,&#13;&#10;&#9;&#9;anacert_codfiscale,&#13;&#10;&#9;&#9;anacert_utente_sellout,&#13;&#10;&#9;&#9;IBAN_cliente,&#13;&#10;&#9;&#9;anacert_cli_itemID,&#13;&#10;&#9;&#9;anacert_cli_itemIDSede&#13;&#10;FROM&#9;stg.GRZ_anagrafica_certificato with(NOLOCK)&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_data1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_nome"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_cognome"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_telefono"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_indirizzo"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_citta"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_provincia"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_email"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_cellulare"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_cap"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_utenins"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_utenvar"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_datains"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_datavar"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_note"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="certificato_DML"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_privacy1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_privacy2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_privacy3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_sellout"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_certificati_pin"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_codfiscale"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_utente_sellout"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IBAN_cliente"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_cli_itemID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anacert_cli_itemIDSede"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__TABLE__&lt;/b&gt;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="GRZ_anagrafica_certificato" name="tDBInput_1">
+      <column comment="" key="false" length="20" name="anacert_id" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="anacert_data1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="anacert_nome" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="anacert_cognome" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="anacert_telefono" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="anacert_indirizzo" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="anacert_citta" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="8" name="anacert_provincia" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="anacert_email" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="64" name="anacert_cellulare" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="8" name="anacert_cap" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="anacert_utenins" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="anacert_utenvar" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="anacert_datains" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="anacert_datavar" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="anacert_note" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="32" name="certificato_DML" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="anacert_privacy1" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="anacert_privacy2" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="anacert_privacy3" nullable="true" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="5" name="anacert_sellout" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="anacert_certificati_pin" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="anacert_codfiscale" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="32" name="anacert_utente_sellout" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="27" name="IBAN_cliente" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="anacert_cli_itemID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="anacert_cli_itemIDSede" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_jYyGYJAlEe2rvJcUVVPUrw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="WRK_DIM_CLIENTE" name="WRK_DIM_CLIENTE">
+      <column comment="" key="false" length="2" name="CLI_SRC" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_COD" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="CLI_DATA" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="CLI_NOME" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="CLI_COGNOME" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="CLI_TELEFONO" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="500" name="CLI_INDIRIZZO" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="CLI_CITTA" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_PROVINCIA" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="CLI_EMAIL" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="64" name="CLI_CELLULARE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_CAP" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="CLI_UTENTE_INS" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="CLI_UTENTE_VAR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="CLI_DATA_INS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="CLI_DATA_VAR" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="CLI_NOTE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="32" name="CLI_NUM_ESTERNO" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="CLI_FLG_MARKETING" nullable="false" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="CLI_FLG_PROFILAZIONE" nullable="false" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="CLI_FLG_MAGGIORENNE" nullable="false" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_PIN" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_CODFISCALE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_IBAN" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_SEDE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_PDV" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_REGIONE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables columnNameFilter="" name="WRK_DIM_CLIENTE" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="context.source_ana" name="CLI_SRC" type="id_String"/>
+        <mapperTableEntries expression="context.source_ana + &quot;&quot; + row1.anacert_id " name="CLI_COD" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_data1 == null ? context.date_notvalue : row1.anacert_data1 " name="CLI_DATA" type="id_Date"/>
+        <mapperTableEntries expression="row1.anacert_nome == null ? context.cod_nv : row1.anacert_nome " name="CLI_NOME" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_cognome == null ? context.cod_nv : row1.anacert_cognome " name="CLI_COGNOME" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_telefono == null ? context.cod_nv : row1.anacert_telefono " name="CLI_TELEFONO" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_indirizzo == null ? context.cod_nv : row1.anacert_indirizzo " name="CLI_INDIRIZZO" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_citta == null ? context.cod_nv : row1.anacert_citta" name="CLI_CITTA" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_provincia == null ? context.cod_nv : row1.anacert_provincia" name="CLI_PROVINCIA" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_email == null ? context.cod_nv : row1.anacert_email" name="CLI_EMAIL" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_cellulare == null ? context.cod_nv : row1.anacert_cellulare" name="CLI_CELLULARE" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_cap == null ? context.cod_nv : row1.anacert_cap" name="CLI_CAP" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_utenins == null ? context.cod_nv_int : row1.anacert_utenins" name="CLI_UTENTE_INS" type="id_Integer"/>
+        <mapperTableEntries expression="row1.anacert_utenvar == null ? context.cod_nv_int : row1.anacert_utenvar" name="CLI_UTENTE_VAR" type="id_Integer"/>
+        <mapperTableEntries expression="row1.anacert_datains == null ? context.date_notvalue : row1.anacert_datains" name="CLI_DATA_INS" type="id_Date"/>
+        <mapperTableEntries expression="row1.anacert_datavar == null ? context.date_notvalue : row1.anacert_datavar" name="CLI_DATA_VAR" type="id_Date"/>
+        <mapperTableEntries expression="row1.anacert_note == null ? context.des_notvalue : row1.anacert_note" name="CLI_NOTE" type="id_String"/>
+        <mapperTableEntries expression="row1.certificato_DML == null ? context.cod_nv : row1.certificato_DML" name="CLI_NUM_ESTERNO" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_privacy1 == null ? context.bol_nv : row1.anacert_privacy1" name="CLI_FLG_MARKETING" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.anacert_privacy2 == null ? context.bol_nv : row1.anacert_privacy2" name="CLI_FLG_PROFILAZIONE" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.anacert_privacy3 == null ? context.bol_nv : row1.anacert_privacy3" name="CLI_FLG_MAGGIORENNE" type="id_Boolean"/>
+        <mapperTableEntries expression="row1.anacert_certificati_pin == null ? context.cod_nv : row1.anacert_certificati_pin" name="CLI_PIN" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_codfiscale == null ? context.cod_nv : row1.anacert_codfiscale" name="CLI_CODFISCALE" type="id_String"/>
+        <mapperTableEntries expression="row1.IBAN_cliente == null ? context.cod_nv : row1.IBAN_cliente" name="CLI_IBAN" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_cli_itemID == null ? context.cod_nv : row1.anacert_cli_itemID" name="CLI_SEDE" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_cli_itemIDSede == null ? context.cod_nv : row1.anacert_cli_itemIDSede" name="CLI_PDV" type="id_String"/>
+        <mapperTableEntries expression="row2.RegionName  == null ? context.cod_nv : row2.RegionName " name="CLI_REGIONE" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="anacert_id" type="id_String"/>
+        <mapperTableEntries name="anacert_data1" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="anacert_nome" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_cognome" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_telefono" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_indirizzo" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_citta" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_provincia" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_email" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_cellulare" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_cap" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_utenins" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="anacert_utenvar" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="anacert_datains" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="anacert_datavar" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="anacert_note" nullable="true" type="id_String"/>
+        <mapperTableEntries name="certificato_DML" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_privacy1" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="anacert_privacy2" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="anacert_privacy3" nullable="true" type="id_Boolean"/>
+        <mapperTableEntries name="anacert_sellout" nullable="true" type="id_Short"/>
+        <mapperTableEntries name="anacert_certificati_pin" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_codfiscale" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_utente_sellout" nullable="true" type="id_String"/>
+        <mapperTableEntries name="IBAN_cliente" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_cli_itemID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="anacert_cli_itemIDSede" nullable="true" type="id_String"/>
+      </inputTables>
+      <inputTables activateCondensedTool="true" lookupMode="LOAD_ONCE" matchingMode="ALL_MATCHES" name="row2" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="RegionName" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.anacert_provincia " name="ItemCode" nullable="true" operator="=" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" show="false" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1433&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:zLQPLx2Ua2fzPmTwgbGPJoypiGFJPqTi8Lkej5CJ"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_gmkjUD5pEe2dgtWX6rMCoA - GeoDistrict"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;GeoDistrict&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT RegionName,&#10;&#9;&#9;ItemCode&#10;FROM&#9;stg.GeoDistrict&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="RegionName"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ItemCode"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__TABLE__&lt;/b&gt;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="GeoDistrict" name="tDBInput_2">
+      <column comment="" key="false" length="128" name="RegionName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="32" name="ItemCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" show="false" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1433&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:pt/cp5hwRspSuOOP3MhU501079IeYHt12EMV8Y9W"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;WRK_DIM_CLIENTE&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns"/>
+    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" show="false" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" show="false" value="CLI_SRC"/>
+    <elementParameter field="TEXT" name="START_VALUE" show="false" value="1"/>
+    <elementParameter field="TEXT" name="STEP" show="false" value="1"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_gmkjUD5pEe2dgtWX6rMCoA - WRK_DIM_CLIENTE"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="true"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;wrk&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_SRC"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_COD"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_DATA"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_NOME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_COGNOME"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_TELEFONO"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_INDIRIZZO"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_CITTA"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_PROVINCIA"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_EMAIL"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_CELLULARE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_CAP"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_UTENTE_INS"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_UTENTE_VAR"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_DATA_INS"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_DATA_VAR"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_NOTE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_NUM_ESTERNO"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_FLG_MARKETING"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_FLG_PROFILAZIONE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_FLG_MAGGIORENNE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_PIN"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_CODFISCALE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_IBAN"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_SEDE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_PDV"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLI_REGIONE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="IGNORE_DATE_OUTOF_RANGE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__TABLE__&lt;/b&gt;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="WRK_DIM_CLIENTE" name="tDBOutput_1">
+      <column comment="" key="false" length="2" name="CLI_SRC" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_COD" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="CLI_DATA" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="CLI_NOME" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="CLI_COGNOME" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="CLI_TELEFONO" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="500" name="CLI_INDIRIZZO" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="CLI_CITTA" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_PROVINCIA" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="CLI_EMAIL" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="64" name="CLI_CELLULARE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_CAP" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="CLI_UTENTE_INS" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="CLI_UTENTE_VAR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="CLI_DATA_INS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="CLI_DATA_VAR" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="CLI_NOTE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="32" name="CLI_NUM_ESTERNO" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="CLI_FLG_MARKETING" nullable="false" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="CLI_FLG_PROFILAZIONE" nullable="false" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="CLI_FLG_MAGGIORENNE" nullable="false" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_PIN" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_CODFISCALE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_IBAN" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_SEDE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_PDV" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_REGIONE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="WRK_DIM_CLIENTE" name="REJECT">
+      <column comment="" key="false" length="2" name="CLI_SRC" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_COD" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="CLI_DATA" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="CLI_NOME" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="CLI_COGNOME" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="128" name="CLI_TELEFONO" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="500" name="CLI_INDIRIZZO" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="CLI_CITTA" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_PROVINCIA" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="CLI_EMAIL" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="64" name="CLI_CELLULARE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_CAP" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="CLI_UTENTE_INS" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="CLI_UTENTE_VAR" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="CLI_DATA_INS" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="CLI_DATA_VAR" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="CLI_NOTE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="32" name="CLI_NUM_ESTERNO" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="CLI_FLG_MARKETING" nullable="false" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="CLI_FLG_PROFILAZIONE" nullable="false" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="CLI_FLG_MAGGIORENNE" nullable="false" pattern="" precision="0" sourceType="BIT" type="id_Boolean" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_PIN" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="16" name="CLI_CODFISCALE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_IBAN" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_SEDE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_PDV" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="CLI_REGIONE" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBCommit_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CHECK" name="CLOSE" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBCommit_1"/>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_2"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" show="false" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1433&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="IBM DB2"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:yqt2VZUleEBfHHklQ57jLVUuUl3ARmuVhk0U+kNm"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;WRK_DIM_CLIENTE&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;Insert into [wrk].[WRK_DIM_CLIENTE] with(tablock)&#13;&#10;Values ('&quot; + context.source_ana + &quot;' --as [CLI_SRC]&#13;&#10;&#9;&#9;&#9;,'NV' -- as [CLI_COD] &#13;&#10;&#9;&#9;&#9;,'31-12-2999' -- as [CLI_DATA] &#13;&#10;&#9;&#9;&#9;,'NV' -- as [CLI_NOME] &#13;&#10;&#9;&#9;&#9;,'NV'-- as [CLI_COGNOME] &#13;&#10;&#9;&#9;&#9;,'NV'-- as [CLI_TELEFONO] &#13;&#10;&#9;&#9;&#9;,'NV'-- as [CLI_INDIRIZZO] &#13;&#10;&#9;&#9;&#9;,'NV'-- as [CLI_CITTA] &#13;&#10;&#9;&#9;&#9;,'NV'-- as [CLI_PROVINCIA] &#13;&#10;&#9;&#9;&#9;,'NV'-- as [CLI_EMAIL] &#13;&#10;&#9;&#9;&#9;,'NV'-- as [CLI_CELLULARE] &#13;&#10;&#9;&#9;&#9;,'NV'-- as [CLI_CAP] &#13;&#10;&#9;&#9;&#9;,0 -- as [CLI_UTENTE_INS] &#13;&#10;&#9;&#9;&#9;,0 -- as [CLI_UTENTE_VAR] &#13;&#10;&#9;&#9;&#9;,'31-12-2999' -- as [CLI_DATA_INS] &#13;&#10;&#9;&#9;&#9;,'31-12-2999' -- as [CLI_DATA_VAR] &#13;&#10;&#9;&#9;&#9;,'Not Value'-- as [CLI_NOTE] &#13;&#10;&#9;&#9;&#9;,'NV'-- as [CLI_NUM_ESTERNO] &#13;&#10;&#9;&#9;&#9;,0-- as [CLI_PRIVACY1] &#13;&#10;&#9;&#9;&#9;,0-- as [CLI_PRIVACY2] &#13;&#10;&#9;&#9;&#9;,0 -- as [CLI_PRIVACY3] &#13;&#10;&#9;&#9;&#9;,'NV' -- as [CLI_PIN]&#13;&#10;&#9;&#9;&#9;,'NV' -- as [CLI_CODFISCALE] &#13;&#10;&#9;&#9;&#9;,'NV' -- as [CLI_IBAN] &#13;&#10;&#9;&#9;&#9;,'NV' -- as [CLI_SEDE] &#13;&#10;&#9;&#9;&#9;,'NV'-- as [CLI_PDV] &#13;&#10;&#9;&#9;&#9;,'NV'-- as [CLI_REGIONE] &#13;&#10;      &#9;) &quot;&#13;&#10;&#13;&#10;&#13;&#10;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value="WAR_KEY"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;INSERT 'NV' INTO &lt;br&gt;TRUNC &lt;b&gt;__TABLE__&lt;/b&gt;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="DIM_WAREHOUSE" name="tDBRow_2">
+      <column key="true" length="19" name="WAR_KEY" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="10" name="WAR_COMP_COD" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="19" name="WAR_COMP_KEY" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="6" name="WAR_COD" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="60" name="WAR_DES" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="10" name="WAR_TYPE_COD" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="25" name="WAR_TYPE_DES" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="6" name="WAR_VAL_GROUP_COD" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="60" name="WAR_VAL_GROUP_DES" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="10" name="WAR_OPER_COMP_COD" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="19" name="WAR_OPER_COMP_KEY" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="3" name="WAR_CLUS_COD" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="19" name="WAR_CLUS_KEY" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="3" name="WAR_PLANT_COD" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="19" name="WAR_PLANT_KEY" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="DIM_WAREHOUSE" name="REJECT">
+      <column key="true" length="19" name="WAR_KEY" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="10" name="WAR_COMP_COD" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="19" name="WAR_COMP_KEY" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="6" name="WAR_COD" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="60" name="WAR_DES" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="10" name="WAR_TYPE_COD" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="25" name="WAR_TYPE_DES" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="6" name="WAR_VAL_GROUP_COD" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="60" name="WAR_VAL_GROUP_DES" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="10" name="WAR_OPER_COMP_COD" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="19" name="WAR_OPER_COMP_KEY" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="3" name="WAR_CLUS_COD" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="19" name="WAR_CLUS_KEY" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="3" name="WAR_PLANT_COD" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column key="false" length="19" name="WAR_PLANT_KEY" nullable="false" pattern="" precision="0" sourceType="BIGINT" type="id_Long" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBRow_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk4"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tDBRow_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk5"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="WRK_DIM_CLIENTE" lineStyle="0" metaname="WRK_DIM_CLIENTE" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDBOutput_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="CLI_PRIVACY3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CLI_PRIVACY2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CLI_PRIVACY1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CLI_FLG_MAGGIORENNE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CLI_FLG_MARKETING"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CLI_FLG_PROFILAZIONE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="WRK_DIM_CLIENTE"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBCommit_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d837ca16-d000-4395-9d3b-238ba9413659"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bip+1y3nqRwi979GAZH/CXrBC9wQJKeNhERZEhI2lOoSpsN5ZQNBwJu64vQNTu11yJDzuWDMkgiJ&#13;
+4Ut07XJPaQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_69d3f50c-034d-48ea-9be0-255f966f17f2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jomcDLS6TBmUgbwKp//E72S8fLPeyWkp1Rivs6o4gSI2iYazX4YwPbP/UzcmsFjlDaGOCfCbDv1m&#13;
+jN/kYjjkXg==</DigestValue></Reference></SignedInfo><SignatureValue>IU/1FIS7vOcmwXmOShzrXb32VOA1AcVnF2cf1WhVNGycW75v96GpkwRFMSg+W3jx90je3pz/E5y0&#13;
+9OyUpmQyrP9xsliDKIY6vdG96VHj72fYoNc7qwlx5fmxzBMl04irNrjwGSyAblvcPe4mXBwgTyUO&#13;
+GZAFgiMni09l1qZXSOOzfnr1gjDObxQ/pBev2AAVxtnuVeacuQVyFn5hRlWKPlhibRPmzNjoSrW6&#13;
+2WoXTLs4g0/sByoRj4nuhWACAvNuw26b5cg0rmwxB1+ylN3FmktiTVAdwiYfTQRlwuNyz3Tsesan&#13;
+8RSh15tGegmybyHPF6EybHpBLvKCpkPnOVDjaA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_69d3f50c-034d-48ea-9be0-255f966f17f2" Target="#_d837ca16-d000-4395-9d3b-238ba9413659"><Timestamp>2024-09-16 12:19:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

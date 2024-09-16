@@ -1,0 +1,26 @@
+{
+  "itemId" : "_tc-bwD5uEe2dgtWX6rMCoA",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_z8yhYD56Ee2dgtWX6rMCoA",
+    "parameterList" : [ {
+      "id" : "_z8_VsT56Ee2dgtWX6rMCoA",
+      "name" : "connection_FirebirdCERTIFICATI_jdbcUrl"
+    }, {
+      "id" : "_z8_Vsj56Ee2dgtWX6rMCoA",
+      "name" : "FirebirdCERTIFICATI_drivers"
+    }, {
+      "id" : "_z8_Vsz56Ee2dgtWX6rMCoA",
+      "name" : "connection_FirebirdCERTIFICATI_driverClass"
+    }, {
+      "id" : "_z8_VtD56Ee2dgtWX6rMCoA",
+      "name" : "connection_FirebirdCERTIFICATI_userPassword_password"
+    }, {
+      "id" : "_z8_VtT56Ee2dgtWX6rMCoA",
+      "name" : "connection_FirebirdCERTIFICATI_userPassword_userId"
+    }, {
+      "id" : "_BiyygHR9Ee2grdXecKupBA",
+      "name" : "connection_FirebirdCERTIFICATI_datasource"
+    } ]
+  } ]
+}

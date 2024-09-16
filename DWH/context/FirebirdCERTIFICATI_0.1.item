@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_z8_VsD56Ee2dgtWX6rMCoA">
+    <contextParameter comment="" name="connection_FirebirdCERTIFICATI_jdbcUrl" prompt="connection_FirebirdCERTIFICATI_jdbcUrl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="jdbc:firebirdsql://192.168.110.2:3050/EURONICS?userUnicode=yes&amp;charSet=UTF8" xmi:id="_z8_VsT56Ee2dgtWX6rMCoA"/>
+    <contextParameter comment="" name="FirebirdCERTIFICATI_drivers" prompt="FirebirdCERTIFICATI_drivers?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;mvn:org.antlr/antlr4-runtime/4.7.2/jar&quot;;&quot;mvn:org.firebirdsql.jdbc/jaybird/4.0.0.java11/jar&quot;;&quot;mvn:org.talend.libraries/connector-api-1.5/6.0.0-SNAPSHOT/jar&quot;" xmi:id="_z8_Vsj56Ee2dgtWX6rMCoA"/>
+    <contextParameter comment="" name="connection_FirebirdCERTIFICATI_driverClass" prompt="connection_FirebirdCERTIFICATI_driverClass?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="org.firebirdsql.jdbc.FBDriver" xmi:id="_z8_Vsz56Ee2dgtWX6rMCoA"/>
+    <contextParameter comment="" name="connection_FirebirdCERTIFICATI_userPassword_password" prompt="connection_FirebirdCERTIFICATI_userPassword_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:NLKTxRlqJssULnTjR/7nqHyuC5TRry1ZOobyiJYsQ6VA8Kio" xmi:id="_z8_VtD56Ee2dgtWX6rMCoA"/>
+    <contextParameter comment="" name="connection_FirebirdCERTIFICATI_userPassword_userId" prompt="connection_FirebirdCERTIFICATI_userPassword_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BI" xmi:id="_z8_VtT56Ee2dgtWX6rMCoA"/>
+    <contextParameter comment="" name="connection_FirebirdCERTIFICATI_datasource" prompt="connection_FirebirdCERTIFICATI_datasource?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="EURONICS" xmi:id="_BiyygHR9Ee2grdXecKupBA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRD" xmi:id="_z8_Vtj56Ee2dgtWX6rMCoA">
+    <contextParameter comment="" name="connection_FirebirdCERTIFICATI_jdbcUrl" prompt="connection_FirebirdCERTIFICATI_jdbcUrl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="jdbc:firebirdsql://192.168.110.2:3050/EURONICS?userUnicode=yes&amp;charSet=UTF8" xmi:id="_z8_Vtz56Ee2dgtWX6rMCoA"/>
+    <contextParameter comment="" name="FirebirdCERTIFICATI_drivers" prompt="FirebirdCERTIFICATI_drivers?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;mvn:org.antlr/antlr4-runtime/4.7.2/jar&quot;;&quot;mvn:org.firebirdsql.jdbc/jaybird/4.0.0.java11/jar&quot;;&quot;mvn:org.talend.libraries/connector-api-1.5/6.0.0-SNAPSHOT/jar&quot;" xmi:id="_z8_VuD56Ee2dgtWX6rMCoA"/>
+    <contextParameter comment="" name="connection_FirebirdCERTIFICATI_driverClass" prompt="connection_FirebirdCERTIFICATI_driverClass?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="org.firebirdsql.jdbc.FBDriver" xmi:id="_z8_VuT56Ee2dgtWX6rMCoA"/>
+    <contextParameter comment="" name="connection_FirebirdCERTIFICATI_userPassword_password" prompt="connection_FirebirdCERTIFICATI_userPassword_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:mozQPfmK3HmXvhni+qG8tODGuzLVc/zZjB1vzm5JOVqtOvAZ" xmi:id="_z8_Vuj56Ee2dgtWX6rMCoA"/>
+    <contextParameter comment="" name="connection_FirebirdCERTIFICATI_userPassword_userId" prompt="connection_FirebirdCERTIFICATI_userPassword_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BI" xmi:id="_z8_Vuz56Ee2dgtWX6rMCoA"/>
+    <contextParameter comment="" name="connection_FirebirdCERTIFICATI_datasource" prompt="connection_FirebirdCERTIFICATI_datasource?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_BiyygXR9Ee2grdXecKupBA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0f450dc8-a4bd-4e55-aabe-b6d2b90761ba"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cPSntjqvS2WdDBgSgLCIIEXOCa4Y/QIJUTRc9uYiRpXz3XPMTbXv5AoiecJNSOS3vaYNgtQdkQo7&#13;
+EMvMyitcHw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8539fac0-d27a-4ffb-9b9f-a833eda42213"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>93/WbvrPNp7sPguEhItaoR7rA2jya/DJfz//HEpKCesdra1Sk6ytEwjvTSrrp6t5r4iQTzHKgahY&#13;
+QgmDNo/q9w==</DigestValue></Reference></SignedInfo><SignatureValue>hHPpHNnF7httdV51BYcbQJTXjpQoqC0OdJHcUsc1xh5tqbFmtoZk/b4E4q9A/WLq4EkzFv6TpfSQ&#13;
+Oqov4/G6wFywMUGMGyAa/O+KTBK6NMnfJ2s5+w30J566J4gJ0lJwfrUyOxtjH8OeEEWdziWJGqFY&#13;
+ZSWZPQrv17xsDFSYscCyviGDPynYNo/BPdo4kMGTfNsryqhFZtepg04aq9PngSngFuctuQqanc5n&#13;
+1bXttoSWkk0CRZfgAqpBzi2eFBX7l8udb6sPlmeGYlRQMYbtwPPxFg3z4DgMwwH4eJ54Y6KVbijs&#13;
++ryZ9f/1HlZOuT6pZLh+DQFXcjisbgRTOVZ3uQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8539fac0-d27a-4ffb-9b9f-a833eda42213" Target="#_0f450dc8-a4bd-4e55-aabe-b6d2b90761ba"><Timestamp>2024-09-16 12:19:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,262 @@
+{
+  "itemId" : "_0DEokJHJEe2OTrVlNnIrmA",
+  "contextList" : [ {
+    "contextName" : "PRD",
+    "repoId" : "_mbpq4D5qEe2dgtWX6rMCoA",
+    "parameterList" : [ {
+      "id" : "_riHOZz5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_AdditionalParams"
+    }, {
+      "id" : "_riHOZD5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Database"
+    }, {
+      "id" : "_riHOYT5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Login"
+    }, {
+      "id" : "_riHOZT5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Password"
+    }, {
+      "id" : "_riHOZj5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Port"
+    }, {
+      "id" : "_2-868WDhEe2D7Jcn3b0Ljg",
+      "name" : "connection_MSSQLDWH_Schema"
+    }, {
+      "id" : "_riHOYz5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Server"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_dpkSkG8wEe2-dePjanCKcA",
+    "parameterList" : [ {
+      "id" : "_dpxt_G8wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_AdditionalParams"
+    }, {
+      "id" : "_dpxt-28wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Database"
+    }, {
+      "id" : "_dpxt_W8wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Login"
+    }, {
+      "id" : "_dpxt_28wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Password"
+    }, {
+      "id" : "_dpxt_m8wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Port"
+    }, {
+      "id" : "_dpxt-m8wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Schema"
+    }, {
+      "id" : "_dpxt-W8wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Server"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "__oTicES-Ee2F5-qwPNNHXg",
+    "parameterList" : [ {
+      "id" : "_rLPMsZA-Ee2pcpENgFTJ2w",
+      "name" : "bol_nv"
+    }, {
+      "id" : "_x4PXpXIrEe2kKYT8MNPXkQ",
+      "name" : "cod_nv"
+    }, {
+      "id" : "_x4PXp3IrEe2kKYT8MNPXkQ",
+      "name" : "cod_nv_int"
+    }, {
+      "id" : "_x4PXqXIrEe2kKYT8MNPXkQ",
+      "name" : "cod_nv1"
+    }, {
+      "id" : "_8mh3k0iwEe2ApN8BB1b6hg",
+      "name" : "column_list"
+    }, {
+      "id" : "_8mh3lEiwEe2ApN8BB1b6hg",
+      "name" : "column_name"
+    }, {
+      "id" : "_896EgXIrEe2kKYT8MNPXkQ",
+      "name" : "date_notvalue"
+    }, {
+      "id" : "_x0cnUXIsEe2kKYT8MNPXkQ",
+      "name" : "date_notvalue1"
+    }, {
+      "id" : "_2jxyQpA-Ee2pcpENgFTJ2w",
+      "name" : "dec_nv"
+    }, {
+      "id" : "_x4PXpnIrEe2kKYT8MNPXkQ",
+      "name" : "des_notvalue"
+    }, {
+      "id" : "_x4PXqHIrEe2kKYT8MNPXkQ",
+      "name" : "des_notvalue1"
+    }, {
+      "id" : "_naJXIWHPEe2uBYiJUUhvGQ",
+      "name" : "query_create"
+    }, {
+      "id" : "_n_kQgYLNEe28ZvUJdVkQOA",
+      "name" : "query_filter"
+    }, {
+      "id" : "_8mh3lUiwEe2ApN8BB1b6hg",
+      "name" : "query_select"
+    }, {
+      "id" : "_hACucUr6Ee27g7VoVY5UoQ",
+      "name" : "refresh_date"
+    }, {
+      "id" : "_A9RrkdH8Ee2uUugL_8Lr2g",
+      "name" : "refresh_year"
+    }, {
+      "id" : "_7E4ZEZG2Ee2OTrVlNnIrmA",
+      "name" : "short_nv"
+    }, {
+      "id" : "_tGfaUWDcEe2D7Jcn3b0Ljg",
+      "name" : "source_ana"
+    }, {
+      "id" : "_8mh3lkiwEe2ApN8BB1b6hg",
+      "name" : "source_name"
+    }, {
+      "id" : "_8mh3kkiwEe2ApN8BB1b6hg",
+      "name" : "source_schema"
+    }, {
+      "id" : "_BwZbgUlNEe2IHYfGKUwXag",
+      "name" : "source_type"
+    }, {
+      "id" : "_UYZGIKJJEe2sqLzPI6Z31Q",
+      "name" : "sources"
+    }, {
+      "id" : "_8mh3kUiwEe2ApN8BB1b6hg",
+      "name" : "table_name"
+    }, {
+      "id" : "_8mh3l0iwEe2ApN8BB1b6hg",
+      "name" : "time_col_name"
+    }, {
+      "id" : "_0KrP8Ur9Ee27g7VoVY5UoQ",
+      "name" : "time_col_period"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_mbpq4D5qEe2dgtWX6rMCoA",
+    "parameterList" : [ {
+      "id" : "_mb3tVz5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_AdditionalParams"
+    }, {
+      "id" : "_mb3tVD5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Database"
+    }, {
+      "id" : "_mb3tUT5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Login"
+    }, {
+      "id" : "_mb3tVT5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Password"
+    }, {
+      "id" : "_mb3tVj5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Port"
+    }, {
+      "id" : "_2-868GDhEe2D7Jcn3b0Ljg",
+      "name" : "connection_MSSQLDWH_Schema"
+    }, {
+      "id" : "_mb3tUz5qEe2dgtWX6rMCoA",
+      "name" : "connection_MSSQLDWH_Server"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_dpkSkG8wEe2-dePjanCKcA",
+    "parameterList" : [ {
+      "id" : "_dpxt9G8wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_AdditionalParams"
+    }, {
+      "id" : "_dpxt828wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Database"
+    }, {
+      "id" : "_dpxt9W8wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Login"
+    }, {
+      "id" : "_dpxt928wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Password"
+    }, {
+      "id" : "_dpxt9m8wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Port"
+    }, {
+      "id" : "_dpxt8m8wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Schema"
+    }, {
+      "id" : "_dpxt8W8wEe2-dePjanCKcA",
+      "name" : "connection_MSSQLDWHLOG_Server"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "__oTicES-Ee2F5-qwPNNHXg",
+    "parameterList" : [ {
+      "id" : "_rLPMsJA-Ee2pcpENgFTJ2w",
+      "name" : "bol_nv"
+    }, {
+      "id" : "_x4PXoHIrEe2kKYT8MNPXkQ",
+      "name" : "cod_nv"
+    }, {
+      "id" : "_x4PXonIrEe2kKYT8MNPXkQ",
+      "name" : "cod_nv_int"
+    }, {
+      "id" : "_x4PXpHIrEe2kKYT8MNPXkQ",
+      "name" : "cod_nv1"
+    }, {
+      "id" : "__oo5o0S-Ee2F5-qwPNNHXg",
+      "name" : "column_list"
+    }, {
+      "id" : "__opgsES-Ee2F5-qwPNNHXg",
+      "name" : "column_name"
+    }, {
+      "id" : "_896EgHIrEe2kKYT8MNPXkQ",
+      "name" : "date_notvalue"
+    }, {
+      "id" : "_x0cnUHIsEe2kKYT8MNPXkQ",
+      "name" : "date_notvalue1"
+    }, {
+      "id" : "_2jxyQJA-Ee2pcpENgFTJ2w",
+      "name" : "dec_nv"
+    }, {
+      "id" : "_x4PXoXIrEe2kKYT8MNPXkQ",
+      "name" : "des_notvalue"
+    }, {
+      "id" : "_x4PXo3IrEe2kKYT8MNPXkQ",
+      "name" : "des_notvalue1"
+    }, {
+      "id" : "_naJXIGHPEe2uBYiJUUhvGQ",
+      "name" : "query_create"
+    }, {
+      "id" : "_n_kQgILNEe28ZvUJdVkQOA",
+      "name" : "query_filter"
+    }, {
+      "id" : "__opgsUS-Ee2F5-qwPNNHXg",
+      "name" : "query_select"
+    }, {
+      "id" : "_hACucEr6Ee27g7VoVY5UoQ",
+      "name" : "refresh_date"
+    }, {
+      "id" : "_A9RrkNH8Ee2uUugL_8Lr2g",
+      "name" : "refresh_year"
+    }, {
+      "id" : "_7E4ZEJG2Ee2OTrVlNnIrmA",
+      "name" : "short_nv"
+    }, {
+      "id" : "_tGfaUGDcEe2D7Jcn3b0Ljg",
+      "name" : "source_ana"
+    }, {
+      "id" : "_-dXsMEV1Ee2ngM_30drcVA",
+      "name" : "source_name"
+    }, {
+      "id" : "__oo5okS-Ee2F5-qwPNNHXg",
+      "name" : "source_schema"
+    }, {
+      "id" : "_BwZbgElNEe2IHYfGKUwXag",
+      "name" : "source_type"
+    }, {
+      "id" : "_UYYfEKJJEe2sqLzPI6Z31Q",
+      "name" : "sources"
+    }, {
+      "id" : "__oo5oUS-Ee2F5-qwPNNHXg",
+      "name" : "table_name"
+    }, {
+      "id" : "_B8zwoEhtEe2pDJUaqscnHA",
+      "name" : "time_col_name"
+    }, {
+      "id" : "_0KrP8Er9Ee27g7VoVY5UoQ",
+      "name" : "time_col_period"
+    } ]
+  } ]
+}

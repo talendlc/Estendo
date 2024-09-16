@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection CsvOption="true" Encoding="US-ASCII" EscapeType="CSV" FieldSeparatorValue="&quot;;&quot;" FilePath="C:/Talend_Studio_8_Estendo/workspace/STAGING/pratiche_log.csv" FirstLineCaption="true" HeaderValue="1" RowSeparatorValue="&quot;\n&quot;" Server="Localhost 127.0.0.1" UseHeader="true" dataPackage="_Cm74QfDNEe2CQcQPRFhUhA" name="pratiche_log" xmi:id="_Cm74QPDNEe2CQcQPRFhUhA"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_Cm74QPDNEe2CQcQPRFhUhA" name="default" xmi:id="_Cm74QfDNEe2CQcQPRFhUhA">
+    <ownedElement id="_7VPzUPDMEe2CQcQPRFhUhA" label="pratiche_log" xmi:id="_Cm74QvDNEe2CQcQPRFhUhA" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="anapralog_pratica_id" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_C80sYPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ATTESARICAMBIO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sYfvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_RIPARATO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sYvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_PREAPERTURA" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sY_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_CHIUSO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sZPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_PRESENTATO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sZfvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_CHECK3" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sZvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_TRANSITOOUT" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sZ_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ATTESAPREV" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80saPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ATTESARIPARA" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80safvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_INSERITOINDISTINTA" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80savvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_CONFERMAPREV_OLD" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sa_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ATTESA_CONTATTO_CAT" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sbPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_TRANSITOIN" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sbfvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_APERTO_OLD" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sbvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_CHECK2" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sb_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_LIQUIDATO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80scPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ANNULLATO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80scfvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_PERVENUTOINSEDE" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80scvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ESCLUSCONTRA" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sc_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_EMESSOBUONO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sdPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_SOSTITUITO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sdfvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_REGISTRFATT" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sdvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_DASMALTIRE" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sd_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ATTESAPAGFRANCH" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sePvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_BUONO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sefvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_DARESTITU" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sevvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_NONPRESENTATA" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80se_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_DARIMBORSARE" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sfPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_LOGISTICA" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sffvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_DALIQUIDARE" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sfvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ATTESA_INTERVENTO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sf_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_PREVENTIVOACCETTATO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sgPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_PREVENTIVORIFIUTATO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sgfvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_RIMBORSO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sgvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ATTESAPAGACLIENTE" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sg_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_RIMBDACOMP" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80shPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ATTESASOSTI" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80shfvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_NONRIPA" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80shvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_TRANSITOOUT_FORNITORE" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sh_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_PAGATOCOSTI" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80siPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_PAGATO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sifvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ATTESAMODULO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sivvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_LABORATORIO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80si_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_NONLIQU" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sjPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ATTESAIBAN" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sjfvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_SOSPESO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sjvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_NONGESTIBILE_RESPINTO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sj_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_LIQUIDAZIONE" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80skPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_CONTRIBUTO_PAGATO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80skfvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_ATTESAPAGSOST_OLD" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80skvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_RIPARATO_OLD" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sk_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_NONLIQUID" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80slPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_SMALTITOCONADDEBITOAMAZON" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80slfvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_CHECK1" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80slvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_RESTITUITO" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80sl_vIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_TRANSITOOUT_PDV" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80smPvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_TRANSITORIPARATORE" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80smfvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRASTA_DATA_LIQUIDPARZ" length="23" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" talendType="id_Date" xmi:id="_C80smvvIEe25YOUVHv_hWw" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f7d44ce6-29be-41e2-952e-210b0625a8ff"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sHFvnxT6ve8mn5kBsAjfyyCQciWOws8zdKesJ98gqRbYagtp4ZMbEY330bjsqbfRx4rgDHkv1fsQ&#13;
+brqPXml0KQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5844b20b-4343-4846-869c-974ac9602db1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>T1GHz4ezo8C+u9YyyQAaO6VBIN8uRfMNCGIxLaQNzGpvDXIJZMYigtY+jyCc7KZ9SVVatIE/kiXv&#13;
+xTPNBv5AYA==</DigestValue></Reference></SignedInfo><SignatureValue>mlmnIllqJ3F/U3m75Z+IhXkzHNGDvuoVp7YZU7Uw0ZUrPLeBGodPIfstGB91Zm059AMRfBWhVVr7&#13;
+5oXLAIy916ITFvPWGX5Ji4WCp9p+GdLoHE+nsIH8Vefmb0tFN0Upa+vxL6DaDIcUM357941+xnPT&#13;
+ka84P/Uiefb8AxVrzF7+75CnLm+sUV8//YSug0VhOiudcd/FQx7wq/f4dhOOKjuxzXZcsXJQsIrw&#13;
+p8gCig/N2AQmKNmGL8JqOS6dTWVFztn2pki2lEwJ8JYaVgE/o0ZOmDNOznfl7JC5vzLgONvgj14O&#13;
+Ya8QxN4xzRsZm41npt9XNAiC741pP3dGU6tu/w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5844b20b-4343-4846-869c-974ac9602db1" Target="#_f7d44ce6-29be-41e2-952e-210b0625a8ff"><Timestamp>2024-09-16 12:19:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
